@@ -9,11 +9,11 @@ const Banner = () => {
           <button className="button">play</button>
           <button className="button">My-List</button>
         </div>
-        <h1 className="discription">
+        <h3 className="description">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ab nisi quibusdam natus
           praesentium ducimus optio quis non, libero laborum! Fugit possimus sint earum velit
           voluptates excepturi amet nam id.
-        </h1>
+        </h3>
       </div>
       <div className="fade_bottom"></div>
     </div>
