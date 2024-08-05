@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import './RowPost.css';
 import { IMG_URL, API_KEY } from '../../constants/constants';
 import YouTube from 'react-youtube';
