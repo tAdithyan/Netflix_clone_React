@@ -11,6 +11,7 @@ interface Movie {
 
 const Banner: React.FC = () => {
   const [movie, setMovie] = useState<Movie | null>(null);
+  
 
   useEffect(() => {
     axios
@@ -20,7 +21,6 @@ const Banner: React.FC = () => {
           const randomIndex = Math.floor(Math.random() * res.data.results.length);
 
           setMovie(res.data.results[randomIndex]);
-          console.log(movie);
 
         }
       })
