@@ -1,0 +1,41 @@
+.row {
+  margin-left: 20px;
+  color: #fff;
+}
+
+.posters {
+  display: flex;
+  padding: 20px;
+  overflow: auto;
+  scrollbar-width: none;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.posters::-webkit-scrollbar {
+  display: none;
+}
+
+.poster {
+  max-height: 250px;
+  margin-right: 10px;
+}
+.smallPoster {
+  max-height: 150px;
+  margin-right: 10px;
+}
+
+.poster,
+.smallPoster {
+  object-fit: cover;
+  margin-right: 10px; /* Space between posters */
+}
+
+.smallPoster {
+  width: 250px;
+  height: 150px;
+}
+
+.poster {
+  width: 300px; /* Adjust the width as needed */
+}
